@@ -562,8 +562,16 @@ special-icons {
 		.wrapper.style4 {
 			background: white;
 			color:black;
+			padding: 40px 10px; /* Adds space inside */
+    			background-color: #f8f9fa; /* Light background for contrast */
 		}
-
+.row.flush {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust columns automatically */
+    gap: 20px; /* Adds space between items */
+    justify-content: center; /* Centers the grid */
+    text-align: justify;
+}
 		.wrapper.style5 {
 			background: #82b440;
 			text-align: center;
