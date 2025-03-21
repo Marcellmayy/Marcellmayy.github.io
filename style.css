@@ -4,6 +4,13 @@
 
 /* Basic */
 
+	#header img {
+    	width: 150px; /* Adjust width */
+    	height: auto; /* Maintain aspect ratio */
+    	display: block; /* Prevent extra spacing */
+    	margin: 0 auto; /* Center it */
+		}
+
 	body {
 		background: #222222;
 	}
